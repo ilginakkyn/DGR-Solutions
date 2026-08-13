@@ -46,8 +46,7 @@
   }
   nav .wrap{display:flex; align-items:center; justify-content:space-between; height:66px;}
   .brand{display:flex; align-items:center; gap:9px; font-family:'Fraunces',serif; font-weight:600; font-size:20px; letter-spacing:0.01em;}
-  .brand .mark{width:18px; height:18px; border:1.5px solid var(--accent); border-radius:3px; position:relative;}
-  .brand .mark::after{content:''; position:absolute; left:4px; top:4px; right:4px; bottom:4px; background:var(--accent); border-radius:1px;}
+  .brand .mark{width:26px; height:26px; display:block;}
   .navlinks{display:flex; gap:34px; font-size:14px; color:var(--muted);}
   .navlinks a{text-decoration:none; transition:color .2s;}
   .navlinks a:hover{color:var(--text);}
@@ -156,7 +155,7 @@
 
 <nav>
   <div class="wrap">
-    <div class="brand"><span class="mark"></span>DGR-Solutions</div>
+    <div class="brand"><img class="mark" src="dgr.svg" alt="DGR-Solutions logo"><span>DGR-Solutions</span></div>
     <div class="navlinks">
       <a href="#problem">Problem</a>
       <a href="#nasil">Nasıl Çalışır</a>
@@ -298,7 +297,7 @@
 
 <footer>
   <div class="wrap">
-    <div class="brand" style="font-size:15px;"><span class="mark"></span>DGR-Solutions</div>
+    <div class="brand" style="font-size:15px;"><img class="mark" src="dgr.svg" alt="DGR-Solutions logo"><span>DGR-Solutions</span></div>
     <div class="fmono">İstanbul, Türkiye — 2026</div>
   </div>
 </footer>
