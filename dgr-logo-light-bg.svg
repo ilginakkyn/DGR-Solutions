@@ -1,0 +1,20 @@
+<svg viewBox="0 0 480 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="100" fill="#FFFFFF"/>
+  <g transform="translate(6,-2) scale(0.75)">
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#B8823C" stroke-width="1.5" opacity="0.55"/>
+    <g fill="#5E8C6E">
+      <g transform="rotate(0 60 60)"><path d="M60,60 Q45,42 48,17 Q58,10 67,19 Q66,42 60,60 Z"/></g>
+      <g transform="rotate(120 60 60)"><path d="M60,60 Q45,42 48,17 Q58,10 67,19 Q66,42 60,60 Z"/></g>
+      <g transform="rotate(240 60 60)"><path d="M60,60 Q45,42 48,17 Q58,10 67,19 Q66,42 60,60 Z"/></g>
+    </g>
+    <circle cx="60" cy="60" r="11" fill="#B8823C"/>
+    <g stroke="#B8823C" stroke-width="2" stroke-linecap="round" opacity="0.9">
+      <line x1="60" y1="41" x2="60" y2="35"/>
+      <line x1="77" y1="49" x2="82" y2="46"/>
+      <line x1="77" y1="71" x2="82" y2="74"/>
+      <line x1="43" y1="49" x2="38" y2="46"/>
+      <line x1="43" y1="71" x2="38" y2="74"/>
+    </g>
+  </g>
+  <text x="112" y="63" font-family="Fraunces, Georgia, serif" font-size="40" font-weight="500" letter-spacing="-0.5" fill="#131A22">DGR-Solutions</text>
+</svg>
